@@ -17,4 +17,5 @@ RUN apt update \
 
 WORKDIR /Galaxy
 COPY Next/package*.json ./
+COPY Extensions /
 RUN npm install
